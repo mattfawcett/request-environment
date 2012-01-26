@@ -5,6 +5,7 @@ A quick Sinatra app that outputs some environment vables so you can see what coo
 
 
 curl http://growing-autumn-3824.heroku.com/show-env.json | prettify_json.rb
+
     {
       "rack.logger": "#<Rack::NullLogger:0x0000000234efe8>",
       "HTTP_X_REQUEST_START": "1327575660368",
